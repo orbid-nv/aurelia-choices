@@ -1,0 +1,7438 @@
+{
+	"id": 0,
+	"name": "choices-docs",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "\"index.d\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "D:/OrbidGit/aurelia-choices2/aurelia-choices/node_modules/choices.js/types/index.d.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "Choices",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 317,
+							"name": "Types",
+							"kind": 2,
+							"kindString": "Module",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 333,
+									"name": "filterFunction",
+									"kind": 4194304,
+									"kindString": "Type alias",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 20,
+											"character": 23
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 334,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 335,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 336,
+															"name": "value",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 20,
+													"character": 25
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 329,
+									"name": "noticeLimitFunction",
+									"kind": 4194304,
+									"kindString": "Type alias",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 19,
+											"character": 28
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 330,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 331,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 332,
+															"name": "maxItemCount",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 19,
+													"character": 30
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 325,
+									"name": "noticeStringFunction",
+									"kind": 4194304,
+									"kindString": "Type alias",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 18,
+											"character": 29
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 326,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 327,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 328,
+															"name": "value",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 18,
+													"character": 31
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 318,
+									"name": "strToEl",
+									"kind": 4194304,
+									"kindString": "Type alias",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 14,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 319,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 320,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 321,
+															"name": "str",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "HTMLElement"
+															},
+															{
+																"type": "reference",
+																"name": "HTMLInputElement"
+															},
+															{
+																"type": "reference",
+																"name": "HTMLOptionElement"
+															}
+														]
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 14,
+													"character": 18
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 322,
+									"name": "stringFunction",
+									"kind": 4194304,
+									"kindString": "Type alias",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 17,
+											"character": 23
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 323,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 324,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 17,
+													"character": 25
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 337,
+									"name": "valueCompareFunction",
+									"kind": 4194304,
+									"kindString": "Type alias",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 21,
+											"character": 29
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 338,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 339,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 340,
+															"name": "value1",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 341,
+															"name": "value2",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 21,
+													"character": 31
+												}
+											]
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Type aliases",
+									"kind": 4194304,
+									"children": [
+										333,
+										329,
+										325,
+										318,
+										322,
+										337
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 13,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 74,
+							"name": "Choice",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 78,
+									"name": "active",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 28,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 76,
+									"name": "customProperties",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 26,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Record",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									}
+								},
+								{
+									"id": 77,
+									"name": "disabled",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 27,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 79,
+									"name": "elementId",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 29,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 80,
+									"name": "groupId",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 30,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 75,
+									"name": "id",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 25,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 81,
+									"name": "keyCode",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 31,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 82,
+									"name": "label",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 32,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 83,
+									"name": "placeholder",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 33,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 84,
+									"name": "selected",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 34,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 85,
+									"name": "value",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 35,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										78,
+										76,
+										77,
+										79,
+										80,
+										75,
+										81,
+										82,
+										83,
+										84,
+										85
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 24,
+									"character": 18
+								}
+							],
+							"extendedBy": [
+								{
+									"type": "reference",
+									"name": "Item",
+									"id": 91
+								}
+							]
+						},
+						{
+							"id": 222,
+							"name": "ClassNames",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Classes added to HTML generated by Choices. By default classnames follow the BEM notation."
+							},
+							"children": [
+								{
+									"id": 239,
+									"name": "activeState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-active'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 259,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 238,
+									"name": "button",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__button'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 257,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 224,
+									"name": "containerInner",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__inner'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 229,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 223,
+									"name": "containerOuter",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 227,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 242,
+									"name": "disabledState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-disabled'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 265,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 245,
+									"name": "flippedState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-flipped'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 271,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 240,
+									"name": "focusState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-focused'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 261,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 236,
+									"name": "group",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__group'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 253,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 237,
+									"name": "groupHeading",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__heading'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 255,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 243,
+									"name": "highlightedState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-highlighted'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 267,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 225,
+									"name": "input",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__input'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 231,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 226,
+									"name": "inputCloned",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__input--cloned'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 233,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 231,
+									"name": "item",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__item'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 243,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 234,
+									"name": "itemChoice",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__item--choice'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 249,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 233,
+									"name": "itemDisabled",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__item--disabled'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 247,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 232,
+									"name": "itemSelectable",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__item--selectable'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 245,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 227,
+									"name": "list",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__list'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 235,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 230,
+									"name": "listDropdown",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__list--dropdown'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 241,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 228,
+									"name": "listItems",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__list--multiple'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 237,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 229,
+									"name": "listSingle",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__list--single'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 239,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 246,
+									"name": "loadingState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-loading'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 273,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 248,
+									"name": "noChoices",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'has-no-choices'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 277,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 247,
+									"name": "noResults",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'has-no-results'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 275,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 241,
+									"name": "openState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-open'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 263,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 235,
+									"name": "placeholder",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'choices__placeholder'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 251,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 244,
+									"name": "selectedState",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'is-selected'"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 269,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										239,
+										238,
+										224,
+										223,
+										242,
+										245,
+										240,
+										236,
+										237,
+										243,
+										225,
+										226,
+										231,
+										234,
+										233,
+										232,
+										227,
+										230,
+										228,
+										229,
+										246,
+										248,
+										247,
+										241,
+										235,
+										244
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 225,
+									"character": 22
+								}
+							]
+						},
+						{
+							"id": 105,
+							"name": "EventMap",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Events fired by Choices behave the same as standard events. Each event is triggered on the element passed to Choices (accessible via `this.passedElement`. Arguments are accessible within the `event.detail` object."
+							},
+							"children": [
+								{
+									"id": 106,
+									"name": "addItem",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered each time an item is added (programmatically or by the user).",
+										"text": "**Input types affected:** text, select-one, select-multiple\n\nArguments: id, value, label, groupValue, keyCode\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 62,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 107,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 111,
+															"name": "groupValue",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 66,
+																	"character": 16
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 108,
+															"name": "id",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 63,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 112,
+															"name": "keyCode",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 67,
+																	"character": 13
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 110,
+															"name": "label",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 65,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 109,
+															"name": "value",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 64,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																111,
+																108,
+																112,
+																110,
+																109
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 62,
+															"character": 25
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 134,
+									"name": "change",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered each time an item is added/removed **by a user**.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n\nArguments: value\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 128,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 135,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 136,
+															"name": "value",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 128,
+																	"character": 31
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																136
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 128,
+															"character": 24
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 131,
+									"name": "choice",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered each time a choice is selected **by a user**, regardless if it changes the value of the input.",
+										"text": "**Input types affected:** select-one, select-multiple\n\nArguments: choice: Choice\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 119,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 132,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 133,
+															"name": "choice",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 119,
+																	"character": 32
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																133
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 119,
+															"character": 24
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 142,
+									"name": "hideDropdown",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered when the dropdown is hidden.",
+										"text": "**Input types affected:** select-one, select-multiple\n\nArguments: -\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 155,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 143,
+									"name": "highlightChoice",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered when a choice from the dropdown is highlighted.",
+										"text": "Input types affected: select-one, select-multiple\nArguments: el is the choice.passedElement that was affected.\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 163,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 144,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 145,
+															"name": "el",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 163,
+																	"character": 37
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "passedElement"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																145
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 163,
+															"character": 33
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 119,
+									"name": "highlightItem",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered each time an item is highlighted.",
+										"text": "**Input types affected:** text, select-multiple\n\nArguments: id, value, label, groupValue\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 91,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 120,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 124,
+															"name": "groupValue",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 95,
+																	"character": 16
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 121,
+															"name": "id",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 92,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 123,
+															"name": "label",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 94,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 122,
+															"name": "value",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 93,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																124,
+																121,
+																123,
+																122
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 91,
+															"character": 31
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 113,
+									"name": "removeItem",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered each time an item is removed (programmatically or by the user).",
+										"text": "**Input types affected:** text, select-one, select-multiple\n\nArguments: id, value, label, groupValue\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 77,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 114,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 118,
+															"name": "groupValue",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 81,
+																	"character": 16
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 115,
+															"name": "id",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 78,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 117,
+															"name": "label",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 80,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 116,
+															"name": "value",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 79,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																118,
+																115,
+																117,
+																116
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 77,
+															"character": 28
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 137,
+									"name": "search",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered when a user types into an input to search choices.",
+										"text": "**Input types affected:** select-one, select-multiple\n\nArguments: value, resultCount\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 137,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 138,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 140,
+															"name": "resultCount",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 137,
+																	"character": 52
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 139,
+															"name": "value",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 137,
+																	"character": 31
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																140,
+																139
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 137,
+															"character": 24
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 141,
+									"name": "showDropdown",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered when the dropdown is shown.",
+										"text": "**Input types affected:** select-one, select-multiple\n\nArguments: -\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 146,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 125,
+									"name": "unhighlightItem",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Triggered each time an item is unhighlighted.",
+										"text": "**Input types affected:** text, select-multiple\n\nArguments: id, value, label, groupValue\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 105,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "CustomEvent",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 126,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 130,
+															"name": "groupValue",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 109,
+																	"character": 16
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 127,
+															"name": "id",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 106,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 129,
+															"name": "label",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 108,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 128,
+															"name": "value",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 107,
+																	"character": 11
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																130,
+																127,
+																129,
+																128
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 105,
+															"character": 33
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										106,
+										134,
+										131,
+										142,
+										143,
+										119,
+										113,
+										137,
+										141,
+										125
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 54,
+									"character": 20
+								}
+							]
+						},
+						{
+							"id": 86,
+							"name": "Group",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 88,
+									"name": "active",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 40,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 89,
+									"name": "disabled",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 41,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 87,
+									"name": "id",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 39,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 90,
+									"name": "value",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 42,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										88,
+										89,
+										87,
+										90
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 38,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 91,
+							"name": "Item",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 98,
+									"name": "active",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 28,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.active",
+										"id": 78
+									}
+								},
+								{
+									"id": 92,
+									"name": "choiceId",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 46,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 96,
+									"name": "customProperties",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 26,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Record",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.customProperties",
+										"id": 76
+									}
+								},
+								{
+									"id": 97,
+									"name": "disabled",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 27,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.disabled",
+										"id": 77
+									}
+								},
+								{
+									"id": 99,
+									"name": "elementId",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 29,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.elementId",
+										"id": 79
+									}
+								},
+								{
+									"id": 100,
+									"name": "groupId",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 30,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.groupId",
+										"id": 80
+									}
+								},
+								{
+									"id": 94,
+									"name": "highlighted",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 48,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 95,
+									"name": "id",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 25,
+											"character": 6
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.id",
+										"id": 75
+									}
+								},
+								{
+									"id": 93,
+									"name": "keyCode",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 47,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"overwrites": {
+										"type": "reference",
+										"name": "Choice.keyCode",
+										"id": 81
+									}
+								},
+								{
+									"id": 101,
+									"name": "label",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 32,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.label",
+										"id": 82
+									}
+								},
+								{
+									"id": 102,
+									"name": "placeholder",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 33,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.placeholder",
+										"id": 83
+									}
+								},
+								{
+									"id": 103,
+									"name": "selected",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 34,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.selected",
+										"id": 84
+									}
+								},
+								{
+									"id": 104,
+									"name": "value",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 35,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Choice.value",
+										"id": 85
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										98,
+										92,
+										96,
+										97,
+										99,
+										100,
+										94,
+										95,
+										93,
+										101,
+										102,
+										103,
+										104
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 45,
+									"character": 16
+								}
+							],
+							"extendedTypes": [
+								{
+									"type": "reference",
+									"name": "Choice",
+									"id": 74
+								}
+							]
+						},
+						{
+							"id": 265,
+							"name": "Options",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Choices options interface",
+								"text": "**Terminology**\n\n- **Choice:** A choice is a value a user can select. A choice would be equivalent to the `<option></option>` element within a select input.\n- **Group:** A group is a collection of choices. A group should be seen as equivalent to a `<optgroup></optgroup>` element within a select input.\n- **Item:** An item is an inputted value **_(text input)_** or a selected choice **_(select element)_**. In the context of a select element, an item is equivelent to a selected option element: `<option value=\"Hello\" selected></option>` whereas in the context of a text input an item is equivelant to `<input type=\"text\" value=\"Hello\">`\n"
+							},
+							"children": [
+								{
+									"id": 272,
+									"name": "addItemFilter",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "A filter that will need to pass for a user to successfully add an item.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 411,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "RegExp"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.filterFunction",
+												"id": 333
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 273,
+									"name": "addItemText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown when a user has inputted a new item but has not pressed the enter key. To access the current input value, pass a function with a `value` argument (see the **default config** [https://github.com/jshjohnson/Choices#setup] for an example), otherwise pass a string.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "\n```\n(value) => `Press Enter to add <b>\"${value}\"</b>`;\n```\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 423,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.noticeStringFunction",
+												"id": 325
+											}
+										]
+									}
+								},
+								{
+									"id": 271,
+									"name": "addItems",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether a user can add items.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 402,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 298,
+									"name": "appendValue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Append a value to each item added/selected.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 634,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 313,
+									"name": "callbackOnCreateTemplates",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Function to run on template creation. Through this callback it is possible to provide custom templates for the various components of Choices (see terminology). For Choices to work with custom templates, it is important you maintain the various data attributes defined here [https://github.com/jshjohnson/Choices/blob/67f29c286aa21d88847adfcd6304dc7d068dc01f/assets/scripts/src/choices.js#L1993-L2067].",
+										"text": "**Input types affected:** text, select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "note",
+												"text": "For each callback, this refers to the current instance of Choices. This can be useful if you need access to methods `(this.disable())` or the config object `(this.config)`.\n"
+											},
+											{
+												"tag": "example",
+												"text": "\n```\nconst example = new Choices(element, {\n  callbackOnCreateTemplates: function (template) {\n    var classNames = this.config.classNames;\n    return {\n      item: (data) => {\n        return template(`\n          <div class=\"${classNames.item} ${data.highlighted ? classNames.highlightedState : classNames.itemSelectable}\" data-item data-id=\"${data.id}\" data-value=\"${data.value}\" ${data.active ? 'aria-selected=\"true\"' : ''} ${data.disabled ? 'aria-disabled=\"true\"' : ''}>\n            <span>&bigstar;</span> ${data.label}\n          </div>\n        `);\n      },\n      choice: (data) => {\n        return template(`\n          <div class=\"${classNames.item} ${classNames.itemChoice} ${data.disabled ? classNames.itemDisabled : classNames.itemSelectable}\" data-select-text=\"${this.config.itemSelectText}\" data-choice ${data.disabled ? 'data-choice-disabled aria-disabled=\"true\"' : 'data-choice-selectable'} data-id=\"${data.id}\" data-value=\"${data.value}\" ${data.groupId > 0 ? 'role=\"treeitem\"' : 'role=\"option\"'}>\n            <span>&bigstar;</span> ${data.label}\n          </div>\n        `);\n      },\n    };\n  }\n});\n```\n"
+											},
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 777,
+											"character": 29
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 314,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 315,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 316,
+																	"name": "template",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Choices.Types.strToEl",
+																		"id": 318
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "Partial",
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"name": "Templates",
+																		"id": 146
+																	}
+																]
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 778,
+															"character": 7
+														}
+													]
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 309,
+									"name": "callbackOnInit",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Function to run once Choices initialises.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "note",
+												"text": "For each callback, this refers to the current instance of Choices. This can be useful if you need access to methods `(this.disable())` or the config object `(this.config)`.\n"
+											},
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 741,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 310,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"signatures": [
+														{
+															"id": 311,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 312,
+																	"name": "this",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"name": "Choices",
+																		"id": 2
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 741,
+															"character": 19
+														}
+													]
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 268,
+									"name": "choices",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Add choices (see terminology) to select input.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```\n[{\n  value: 'Option 1',\n  label: 'Option 1',\n  selected: true,\n  disabled: false,\n},\n{\n  value: 'Option 2',\n  label: 'Option 2',\n  selected: false,\n  disabled: true,\n  customProperties: {\n    description: 'Custom description about Option 2',\n    random: 'Another random custom property'\n  },\n}]\n```\n"
+											},
+											{
+												"tag": "default",
+												"text": "[]\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 375,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "Choice",
+											"id": 74
+										}
+									}
+								},
+								{
+									"id": 308,
+									"name": "classNames",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Classes added to HTML generated by Choices. By default classnames follow the BEM notation.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n"
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 726,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ClassNames",
+										"id": 222
+									}
+								},
+								{
+									"id": 306,
+									"name": "customAddItemText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown when addItemFilter is passed and it returns false",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'Only values matching specific conditions can be added'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 707,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.noticeStringFunction",
+												"id": 325
+											}
+										]
+									}
+								},
+								{
+									"id": 278,
+									"name": "delimiter",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "What divides each value. The default delimiter separates each value with a comma: `\"Value 1, Value 2, Value 3\"`.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "','\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 468,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 277,
+									"name": "duplicateItemsAllowed",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether each inputted/chosen item should be unique.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 459,
+											"character": 25
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 276,
+									"name": "editItems",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether a user can edit items. An item's value can be edited by pressing the backspace.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "false\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 450,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 303,
+									"name": "itemSelectText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown when a user hovers over a selectable choice.",
+										"text": "**Input types affected:** select-multiple, select-one\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'Press to select'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 679,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 267,
+									"name": "items",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Add pre-selected items (see terminology) to text input.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```\n['value 1', 'value 2', 'value 3']\n```\n"
+											},
+											{
+												"tag": "example",
+												"text": "\n```\n[{\n   value: 'Value 1',\n   label: 'Label 1',\n   id: 1\n },\n {\n   value: 'Value 2',\n   label: 'Label 2',\n   id: 2,\n   customProperties: {\n     random: 'I am a custom property'\n }\n}]\n```\n"
+											},
+											{
+												"tag": "default",
+												"text": "[]\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 346,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "Choice",
+													"id": 74
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 300,
+									"name": "loadingText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown whilst choices are being populated via AJAX.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'Loading...'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 652,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 270,
+									"name": "maxItemCount",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The amount of items a user can input/select `(\"-1\" indicates no limit)`.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "-1\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 393,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 304,
+									"name": "maxItemText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown when a user has focus on the input but has already reached the **max item count** [https://github.com/jshjohnson/Choices#maxitemcount]. To access the max item count, pass a function with a `maxItemCount` argument (see the **default config** [https://github.com/jshjohnson/Choices#setup] for an example), otherwise pass a string.",
+										"text": "**Input types affected:** text\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "\n```\n(maxItemCount) => `Only ${maxItemCount} values can be added.`;\n```\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 691,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.noticeLimitFunction",
+												"id": 329
+											}
+										]
+									}
+								},
+								{
+									"id": 302,
+									"name": "noChoicesText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown when a user has selected all possible choices. Optionally pass a function returning a string.",
+										"text": "**Input types affected:** select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'No choices to choose from'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 670,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.stringFunction",
+												"id": 322
+											}
+										]
+									}
+								},
+								{
+									"id": 301,
+									"name": "noResultsText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The text that is shown when a user's search has returned no results. Optionally pass a function returning a string.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'No results found'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 661,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.stringFunction",
+												"id": 322
+											}
+										]
+									}
+								},
+								{
+									"id": 279,
+									"name": "paste",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether a user can paste into the input.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 477,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 294,
+									"name": "placeholder",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether the input should show a placeholder. Used in conjunction with `placeholderValue`. If `placeholder` is set to true and no value is passed to `placeholderValue`, the passed input's placeholder attribute will be used as the placeholder value.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "note",
+												"text": "For single select boxes, the recommended way of adding a placeholder is as follows:\n```\n<select>\n  <option placeholder>This is a placeholder</option>\n  <option>...</option>\n  <option>...</option>\n  <option>...</option>\n</select>\n```\n"
+											},
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 598,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 295,
+									"name": "placeholderValue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The value of the inputs placeholder.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 607,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 285,
+									"name": "position",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether the dropdown should appear above `(top)` or below `(bottom)` the input. By default, if there is not enough space within the window the dropdown will appear above the input, otherwise below it.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'auto'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 533,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "stringLiteral",
+												"value": "auto"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "top"
+											}
+										]
+									}
+								},
+								{
+									"id": 297,
+									"name": "prependValue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Prepend a value to each item added/selected.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 625,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 275,
+									"name": "removeItemButton",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether each item should have a remove button.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "false\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 441,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 274,
+									"name": "removeItems",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether a user can remove items.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 432,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 269,
+									"name": "renderChoiceLimit",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The amount of choices to be rendered within the dropdown list `(\"-1\" indicates no limit)`. This is useful if you have a lot of choices where it is easier for a user to use the search area to find a choice.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "-1\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 384,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 299,
+									"name": "renderSelectedChoices",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether selected choices should be removed from the list. By default choices are removed when they are selected in multiple select box. To always render choices pass `always`.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'auto';\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 643,
+											"character": 25
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "stringLiteral",
+												"value": "auto"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "always"
+											}
+										]
+									}
+								},
+								{
+									"id": 286,
+									"name": "resetScrollPosition",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether the scroll position should reset after adding an item.",
+										"text": "**Input types affected:** select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 542,
+											"character": 23
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 281,
+									"name": "searchChoices",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether choices should be filtered by input or not. If `false`, the search event will still emit, but choices will not be filtered.",
+										"text": "**Input types affected:** select-one\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 497,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 280,
+									"name": "searchEnabled",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether a search area should be shown.",
+										"tags": [
+											{
+												"tag": "note",
+												"text": "Multiple select boxes will always show search areas.\n\n**Input types affected:** select-one\n"
+											},
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 488,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 284,
+									"name": "searchFields",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Specify which fields should be used when a user is searching. If you have added custom properties to your choices, you can add these values thus: `['label', 'value', 'customProperties.example']`.",
+										"text": "Input types affected:select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "['label', 'value']\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 524,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								},
+								{
+									"id": 282,
+									"name": "searchFloor",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The minimum length a search value should be before choices are searched.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "1\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 506,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 296,
+									"name": "searchPlaceholderValue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The value of the search inputs placeholder.",
+										"text": "**Input types affected:** select-one\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "null\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 616,
+											"character": 26
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 283,
+									"name": "searchResultLimit",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The maximum amount of search results to show.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "4\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 515,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 287,
+									"name": "shouldSort",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether choices and groups should be sorted. If false, choices/groups will appear in the order they were given.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "true\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 551,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 288,
+									"name": "shouldSortItems",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Whether items should be sorted. If false, items will appear in the order they were selected.",
+										"text": "**Input types affected:** text, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "false\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 560,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 266,
+									"name": "silent",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Optionally suppress console errors and warnings.",
+										"text": "**Input types affected:** text, select-single, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "false\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 315,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 289,
+									"name": "sorter",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The function that will sort choices and items before they are displayed (unless a user is searching). By default choices and items are sorted by alphabetical order.",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```\n// Sorting via length of label from largest to smallest\nconst example = new Choices(element, {\n  sorter: function(a, b) {\n    return b.label.length - a.label.length;\n  },\n};\n```\n"
+											},
+											{
+												"tag": "default",
+												"text": "sortByAlpha\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 579,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 290,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 291,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 292,
+															"name": "current",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														},
+														{
+															"id": 293,
+															"name": "next",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "number"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 579,
+													"character": 11
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 305,
+									"name": "uniqueItemText",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "If no duplicates are allowed, and the value already exists in the array.",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "'Only unique values can be added'\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 698,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"name": "Choices.Types.noticeStringFunction",
+												"id": 325
+											}
+										]
+									}
+								},
+								{
+									"id": 307,
+									"name": "valueComparer",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Compare choice and value in appropriate way (e.g. deep equality for objects). To compare choice and value, pass a function with a `valueComparer` argument (see the [default config](https://github.com/jshjohnson/Choices#setup) for an example).",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "default",
+												"text": "\n```\n(choice, item) => choice === item;\n```\n"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 719,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Choices.Types.valueCompareFunction",
+										"id": 337
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										272,
+										273,
+										271,
+										298,
+										313,
+										309,
+										268,
+										308,
+										306,
+										278,
+										277,
+										276,
+										303,
+										267,
+										300,
+										270,
+										304,
+										302,
+										301,
+										279,
+										294,
+										295,
+										285,
+										297,
+										275,
+										274,
+										269,
+										299,
+										286,
+										281,
+										280,
+										284,
+										282,
+										296,
+										283,
+										287,
+										288,
+										266,
+										289,
+										305,
+										307
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 307,
+									"character": 19
+								}
+							]
+						},
+						{
+							"id": 146,
+							"name": "Templates",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 193,
+									"name": "choice",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 203,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 194,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 195,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 196,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 197,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 198,
+															"name": "data",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														},
+														{
+															"id": 199,
+															"name": "selectText",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 203,
+													"character": 11
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 187,
+									"name": "choiceGroup",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 198,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 188,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 189,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 190,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 191,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 192,
+															"name": "data",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 198,
+													"character": 16
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 181,
+									"name": "choiceList",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 193,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 182,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 183,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 184,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 185,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 186,
+															"name": "isSelectOneElement",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 193,
+													"character": 15
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 157,
+									"name": "containerInner",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 176,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 158,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 159,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 160,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 161,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 176,
+													"character": 19
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 147,
+									"name": "containerOuter",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 167,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 148,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 149,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 150,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 151,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 152,
+															"name": "direction",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 153,
+															"name": "isSelectElement",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														},
+														{
+															"id": 154,
+															"name": "isSelectOneElement",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														},
+														{
+															"id": 155,
+															"name": "searchEnabled",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														},
+														{
+															"id": 156,
+															"name": "passedElementType",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "stringLiteral",
+																		"value": "text"
+																	},
+																	{
+																		"type": "stringLiteral",
+																		"value": "select-one"
+																	},
+																	{
+																		"type": "stringLiteral",
+																		"value": "select-multiple"
+																	}
+																]
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 167,
+													"character": 19
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 206,
+									"name": "dropdown",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 214,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 207,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 208,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 209,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 210,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 214,
+													"character": 13
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 200,
+									"name": "input",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 209,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 201,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 202,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 203,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 204,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 205,
+															"name": "placeholderValue",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLInputElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 209,
+													"character": 10
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 174,
+									"name": "item",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 187,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 175,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 176,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 177,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 178,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 179,
+															"name": "data",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														},
+														{
+															"id": 180,
+															"name": "removeItemButton",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 187,
+													"character": 9
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 162,
+									"name": "itemList",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 177,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 163,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 164,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 165,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 166,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 167,
+															"name": "isSelectOneElement",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 177,
+													"character": 13
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 211,
+									"name": "notice",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 215,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 212,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 213,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 214,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 215,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 216,
+															"name": "label",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 217,
+															"name": "type",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "stringLiteral",
+																		"value": ""
+																	},
+																	{
+																		"type": "stringLiteral",
+																		"value": "no-results"
+																	},
+																	{
+																		"type": "stringLiteral",
+																		"value": "no-choices"
+																	}
+																]
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 215,
+													"character": 11
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 218,
+									"name": "option",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 221,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 219,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 220,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 221,
+															"name": "data",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choice",
+																"id": 74
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLOptionElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 221,
+													"character": 11
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 168,
+									"name": "placeholder",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 182,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 169,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 170,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 171,
+															"name": "this",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Choices",
+																"id": 2
+															}
+														},
+														{
+															"id": 172,
+															"name": "classNames",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "ClassNames",
+																"id": 222
+															}
+														},
+														{
+															"id": 173,
+															"name": "value",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "HTMLElement"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 182,
+													"character": 16
+												}
+											]
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										193,
+										187,
+										181,
+										157,
+										147,
+										206,
+										200,
+										174,
+										162,
+										211,
+										218,
+										168
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 166,
+									"character": 21
+								}
+							]
+						},
+						{
+							"id": 11,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 12,
+									"name": "new Choices",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 13,
+											"name": "selectorOrElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"name": "HTMLInputElement"
+													},
+													{
+														"type": "reference",
+														"name": "HTMLSelectElement"
+													}
+												]
+											}
+										},
+										{
+											"id": 14,
+											"name": "userConfig",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Partial",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "Options",
+														"id": 265
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Choices",
+										"id": 2
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 797,
+									"character": 23
+								}
+							]
+						},
+						{
+							"id": 7,
+							"name": "config",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 789,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Options",
+								"id": 265
+							}
+						},
+						{
+							"id": 8,
+							"name": "initialised",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 792,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 9,
+							"name": "passedElement",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 249,
+									"name": "classNames",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 281,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ClassNames",
+										"id": 222
+									}
+								},
+								{
+									"id": 250,
+									"name": "element",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 282,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intersection",
+										"types": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"name": "HTMLInputElement"
+													},
+													{
+														"type": "reference",
+														"name": "HTMLSelectElement"
+													}
+												]
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 251,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 252,
+															"name": "addEventListener",
+															"kind": 64,
+															"kindString": "Function",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 253,
+																	"name": "addEventListener",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"typeParameter": [
+																		{
+																			"id": 254,
+																			"name": "K",
+																			"kind": 131072,
+																			"kindString": "Type parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "typeOperator",
+																				"operator": "keyof",
+																				"target": {
+																					"type": "reference",
+																					"name": "EventMap"
+																				}
+																			}
+																		}
+																	],
+																	"parameters": [
+																		{
+																			"id": 255,
+																			"name": "type",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "typeParameter",
+																				"name": "K",
+																				"constraint": {
+																					"type": "typeOperator",
+																					"operator": "keyof",
+																					"target": {
+																						"type": "reference",
+																						"name": "EventMap"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": 256,
+																			"name": "listener",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "reflection",
+																				"declaration": {
+																					"id": 257,
+																					"name": "__type",
+																					"kind": 65536,
+																					"kindString": "Type literal",
+																					"flags": {},
+																					"signatures": [
+																						{
+																							"id": 258,
+																							"name": "__call",
+																							"kind": 4096,
+																							"kindString": "Call signature",
+																							"flags": {},
+																							"parameters": [
+																								{
+																									"id": 259,
+																									"name": "this",
+																									"kind": 32768,
+																									"kindString": "Parameter",
+																									"flags": {},
+																									"type": {
+																										"type": "union",
+																										"types": [
+																											{
+																												"type": "reference",
+																												"name": "HTMLInputElement"
+																											},
+																											{
+																												"type": "reference",
+																												"name": "HTMLSelectElement"
+																											}
+																										]
+																									}
+																								},
+																								{
+																									"id": 260,
+																									"name": "ev",
+																									"kind": 32768,
+																									"kindString": "Parameter",
+																									"flags": {},
+																									"type": {
+																										"type": "unknown",
+																										"name": "EventMap[K]"
+																									}
+																								}
+																							],
+																							"type": {
+																								"type": "intrinsic",
+																								"name": "void"
+																							}
+																						}
+																					],
+																					"sources": [
+																						{
+																							"fileName": "index.d.ts",
+																							"line": 286,
+																							"character": 17
+																						}
+																					]
+																				}
+																			}
+																		},
+																		{
+																			"id": 261,
+																			"name": "options",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {
+																				"isOptional": true
+																			},
+																			"type": {
+																				"type": "union",
+																				"types": [
+																					{
+																						"type": "intrinsic",
+																						"name": "boolean"
+																					},
+																					{
+																						"type": "reference",
+																						"name": "AddEventListenerOptions"
+																					}
+																				]
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 284,
+																	"character": 22
+																}
+															]
+														}
+													],
+													"groups": [
+														{
+															"title": "Functions",
+															"kind": 64,
+															"children": [
+																252
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "index.d.ts",
+															"line": 282,
+															"character": 53
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 263,
+									"name": "isDisabled",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 294,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 264,
+									"name": "parentInstance",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 295,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Choices",
+										"id": 2
+									}
+								},
+								{
+									"id": 262,
+									"name": "type",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 293,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "stringLiteral",
+												"value": "text"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "select-one"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "select-multiple"
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										249,
+										250,
+										263,
+										264,
+										262
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 795,
+									"character": 24
+								},
+								{
+									"fileName": "index.d.ts",
+									"line": 280,
+									"character": 25
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "passedElement"
+							}
+						},
+						{
+							"id": 10,
+							"name": "placeholder",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 797,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 3,
+							"name": "defaults",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 785,
+									"character": 26
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 4,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 5,
+											"name": "options",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 786,
+													"character": 20
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "Partial",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "Options",
+														"id": 265
+													}
+												]
+											}
+										},
+										{
+											"id": 6,
+											"name": "templates",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 787,
+													"character": 22
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "Templates",
+												"id": 146
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												5,
+												6
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 785,
+											"character": 27
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 64,
+							"name": "clearChoices",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 65,
+									"name": "clearChoices",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Clear all choices from select.",
+										"text": "**Input types affected:** select-one, select-multiple\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 996,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 68,
+							"name": "clearInput",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 69,
+									"name": "clearInput",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Clear input of any user inputted text.",
+										"text": "**Input types affected:** text\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 1010,
+									"character": 12
+								}
+							]
+						},
+						{
+							"id": 66,
+							"name": "clearStore",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 67,
+									"name": "clearStore",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Removes all items, choices and groups. Use with caution.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 1003,
+									"character": 12
+								}
+							]
+						},
+						{
+							"id": 17,
+							"name": "destroy",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 18,
+									"name": "destroy",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Kills the instance of Choices, removes all event listeners and returns passed input to its initial state.",
+										"text": "**Input types affected:** text, select-multiple, select-one\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 818,
+									"character": 9
+								}
+							]
+						},
+						{
+							"id": 72,
+							"name": "disable",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 73,
+									"name": "disable",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Disables input from accepting new value/selecting further choices.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 1024,
+									"character": 9
+								}
+							]
+						},
+						{
+							"id": 70,
+							"name": "enable",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 71,
+									"name": "enable",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Enables input to accept new values/select further choices.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 1017,
+									"character": 8
+								}
+							]
+						},
+						{
+							"id": 45,
+							"name": "getValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 46,
+									"name": "getValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Get value(s) of input (i.e. inputted items (text) or selected choices (select)). Optionally pass an argument of `true` to only return values rather than value objects.",
+										"text": "**Input types affected:** text, select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```\nconst example = new Choices(element);\nconst values = example.getValue(true); // returns ['value 1', 'value 2'];\nconst valueArray = example.getValue(); // returns [{ active: true, choiceId: 1, highlighted: false, id: 1, label: 'Label 1', value: 'Value 1'},  { active: true, choiceId: 2, highlighted: false, id: 2, label: 'Label 2', value: 'Value 2'}];\n```\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 47,
+											"name": "valueOnly",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 887,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 42,
+							"name": "hideDropdown",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 43,
+									"name": "hideDropdown",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Hide option list dropdown (only affects select inputs).",
+										"text": "**Input types affected:** text, select-multiple\n"
+									},
+									"parameters": [
+										{
+											"id": 44,
+											"name": "blurInput",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 873,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 26,
+							"name": "highlightAll",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 27,
+									"name": "highlightAll",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Highlight each chosen item (selected items can be removed).",
+										"text": "**Input types affected:** text, select-multiple\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 831,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 19,
+							"name": "highlightItem",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 20,
+									"name": "highlightItem",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Select item (a selected item can be deleted)"
+									},
+									"parameters": [
+										{
+											"id": 21,
+											"name": "item",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Element"
+											}
+										},
+										{
+											"id": 22,
+											"name": "runEvent",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 821,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 15,
+							"name": "init",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 16,
+									"name": "init",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Creates a new instance of Choices, adds event listeners, creates templates and renders a Choices element to the DOM.",
+										"tags": [
+											{
+												"tag": "note",
+												"text": "This is called implicitly when a new instance of Choices is created. This would be used after a Choices instance had already been destroyed `(using destroy())`.\n\n**Input types affected:** text, select-multiple, select-one\n"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 811,
+									"character": 6
+								}
+							]
+						},
+						{
+							"id": 33,
+							"name": "removeActiveItems",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 34,
+									"name": "removeActiveItems",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Remove each selectable item.",
+										"text": "**Input types affected:** text, select-multiple\n"
+									},
+									"parameters": [
+										{
+											"id": 35,
+											"name": "excludedId",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 852,
+									"character": 19
+								}
+							]
+						},
+						{
+							"id": 30,
+							"name": "removeActiveItemsByValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 31,
+									"name": "removeActiveItemsByValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Remove each item by a given value.",
+										"text": "**Input types affected:** text, select-multiple\n"
+									},
+									"parameters": [
+										{
+											"id": 32,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 845,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 36,
+							"name": "removeHighlightedItems",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 37,
+									"name": "removeHighlightedItems",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Remove each item the user has selected.",
+										"text": "**Input types affected:** text, select-multiple\n"
+									},
+									"parameters": [
+										{
+											"id": 38,
+											"name": "runEvent",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 859,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 51,
+							"name": "setChoiceByValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 52,
+									"name": "setChoiceByValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Set value of input based on existing Choice. `value` can be either a single string or an array of strings",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```\nconst example = new Choices(element, {\n  choices: [\n    {value: 'One', label: 'Label One'},\n    {value: 'Two', label: 'Label Two', disabled: true},\n    {value: 'Three', label: 'Label Three'},\n  ],\n});\n\nexample.setChoiceByValue('Two'); // Choice with value of 'Two' has now been selected.\n```\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 53,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 913,
+									"character": 18
+								}
+							]
+						},
+						{
+							"id": 54,
+							"name": "setChoices",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 55,
+									"name": "setChoices",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Set choices of select input via an array of objects (or function that returns array of object or promise of it),\na value field name and a label field name.\nThis behaves the same as passing items via the choices option but can be called after initialising Choices.\nThis can also be used to add groups of choices (see example 2); Optionally pass a true `replaceChoices` value to remove any existing choices.\nOptionally pass a `customProperties` object to add additional data to your choices (useful when searching/filtering etc).",
+										"text": "**Input types affected:** select-one, select-multiple\n",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```js\nconst example = new Choices(element);\n\nexample.setChoices([\n  {value: 'One', label: 'Label One', disabled: true},\n  {value: 'Two', label: 'Label Two', selected: true},\n  {value: 'Three', label: 'Label Three'},\n], 'value', 'label', false);\n```\n"
+											},
+											{
+												"tag": "example",
+												"text": "\n```js\nconst example = new Choices(element);\n\nexample.setChoices(async () => {\n  try {\n     const items = await fetch('/items');\n     return items.json()\n  } catch(err) {\n     console.error(err)\n  }\n});\n```\n"
+											},
+											{
+												"tag": "example",
+												"text": "\n```js\nconst example = new Choices(element);\n\nexample.setChoices([{\n  label: 'Group one',\n  id: 1,\n  disabled: false,\n  choices: [\n    {value: 'Child One', label: 'Child One', selected: true},\n    {value: 'Child Two', label: 'Child Two',  disabled: true},\n    {value: 'Child Three', label: 'Child Three'},\n  ]\n},\n{\n  label: 'Group two',\n  id: 2,\n  disabled: false,\n  choices: [\n    {value: 'Child Four', label: 'Child Four', disabled: true},\n    {value: 'Child Five', label: 'Child Five'},\n    {value: 'Child Six', label: 'Child Six', customProperties: {\n      description: 'Custom description about child six',\n      random: 'Another random custom property'\n    }},\n  ]\n}], 'value', 'label', false);\n```\n"
+											}
+										]
+									},
+									"typeParameter": [
+										{
+											"id": 59,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "object"
+														}
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 56,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"signatures": [
+																{
+																	"id": 57,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {},
+																	"parameters": [
+																		{
+																			"id": 58,
+																			"name": "instance",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {},
+																			"type": {
+																				"type": "reference",
+																				"name": "Choices",
+																				"id": 2
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "union",
+																		"types": [
+																			{
+																				"type": "array",
+																				"elementType": {
+																					"type": "intrinsic",
+																					"name": "object"
+																				}
+																			},
+																			{
+																				"type": "reference",
+																				"name": "Promise",
+																				"typeArguments": [
+																					{
+																						"type": "array",
+																						"elementType": {
+																							"type": "intrinsic",
+																							"name": "object"
+																						}
+																					}
+																				]
+																			}
+																		]
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "index.d.ts",
+																	"line": 983,
+																	"character": 24
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 60,
+											"name": "choices",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "typeParameter",
+												"name": "T",
+												"constraint": {
+													"type": "union",
+													"types": [
+														{
+															"type": "array",
+															"elementType": {
+																"type": "intrinsic",
+																"name": "object"
+															}
+														},
+														{
+															"type": "reflection",
+															"declaration": {
+																"id": 56,
+																"name": "__type",
+																"kind": 65536,
+																"kindString": "Type literal",
+																"flags": {},
+																"signatures": [
+																	{
+																		"id": 57,
+																		"name": "__call",
+																		"kind": 4096,
+																		"kindString": "Call signature",
+																		"flags": {},
+																		"parameters": [
+																			{
+																				"id": 58,
+																				"name": "instance",
+																				"kind": 32768,
+																				"kindString": "Parameter",
+																				"flags": {},
+																				"type": {
+																					"type": "reference",
+																					"name": "Choices",
+																					"id": 2
+																				}
+																			}
+																		],
+																		"type": {
+																			"type": "union",
+																			"types": [
+																				{
+																					"type": "array",
+																					"elementType": {
+																						"type": "intrinsic",
+																						"name": "object"
+																					}
+																				},
+																				{
+																					"type": "reference",
+																					"name": "Promise",
+																					"typeArguments": [
+																						{
+																							"type": "array",
+																							"elementType": {
+																								"type": "intrinsic",
+																								"name": "object"
+																							}
+																						}
+																					]
+																				}
+																			]
+																		}
+																	}
+																],
+																"sources": [
+																	{
+																		"fileName": "index.d.ts",
+																		"line": 983,
+																		"character": 24
+																	}
+																]
+															}
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 61,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 62,
+											"name": "label",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 63,
+											"name": "replaceChoices",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "unknown",
+										"name": "T extends object[] ? this : Promise<this>"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 982,
+									"character": 12
+								}
+							]
+						},
+						{
+							"id": 48,
+							"name": "setValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 49,
+									"name": "setValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Direct populate choices"
+									},
+									"parameters": [
+										{
+											"id": 50,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													{
+														"type": "array",
+														"elementType": {
+															"type": "reference",
+															"name": "Item",
+															"id": 91
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 893,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 39,
+							"name": "showDropdown",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 40,
+									"name": "showDropdown",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Show option list dropdown (only affects select inputs).",
+										"text": "**Input types affected:** select-one, select-multiple\n"
+									},
+									"parameters": [
+										{
+											"id": 41,
+											"name": "focusInput",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 866,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 28,
+							"name": "unhighlightAll",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 29,
+									"name": "unhighlightAll",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Un-highlight each chosen item.",
+										"text": "**Input types affected:** text, select-multiple\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 838,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 23,
+							"name": "unhighlightItem",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 24,
+									"name": "unhighlightItem",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Deselect item"
+									},
+									"parameters": [
+										{
+											"id": 25,
+											"name": "item",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Element"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 824,
+									"character": 17
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Modules",
+							"kind": 2,
+							"children": [
+								317
+							]
+						},
+						{
+							"title": "Interfaces",
+							"kind": 256,
+							"children": [
+								74,
+								222,
+								105,
+								86,
+								91,
+								265,
+								146
+							]
+						},
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								11
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								7,
+								8,
+								9,
+								10,
+								3
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								64,
+								68,
+								66,
+								17,
+								72,
+								70,
+								45,
+								42,
+								26,
+								19,
+								15,
+								33,
+								30,
+								36,
+								51,
+								54,
+								48,
+								39,
+								28,
+								23
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.d.ts",
+							"line": 784,
+							"character": 28
+						},
+						{
+							"fileName": "index.d.ts",
+							"line": 12,
+							"character": 25
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "index.d.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1
+			]
+		}
+	]
+}

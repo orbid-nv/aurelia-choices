@@ -1,0 +1,16 @@
+{{#each properties}}
+@bindable({ defaultBindingMode: bindingMode.twoWay })
+public o{{capitalize name}}:{{{type}}};
+private o{{capitalize name}}Changed(newValue, oldValue){
+if (this.choicesInstance) {
+    this.initChoices();
+}
+}
+{{/each}}
+private initialiseProperties(){
+{{#each properties}}
+if(this.o{{capitalize name}}!==undefined && this.o{{capitalize name}}!==null){
+    this.config.{{name}} = this.o{{capitalize name}}
+}
+{{/each}}
+}
