@@ -1,5 +1,10 @@
 {
-  "rules": {
-    "no-empty": true
-  }
+	"extends": "tslint:recommended",
+	"rules": {
+		"indent": [true, "tabs", 4],
+		"object-literal-sort-keys": false,
+		"experimentalDecorators": false,
+		"no-empty": false,
+		"ordered-imports": false
+	}
 }
