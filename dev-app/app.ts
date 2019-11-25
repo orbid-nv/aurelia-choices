@@ -1,12 +1,10 @@
 export class App {
   public message: string = 'from Aurelia!';
-  public choices= [
+  public choices :any[]= [
     {
     value: 'Option 11',
     label: 'Option 111',
     label2: 'Test 1',
-    selected: false,
-    disabled: false,
   },
   {
     value: 'Option 211',
@@ -23,6 +21,13 @@ export class App {
   {
     value: 'Option 4',
     label: 'Option 4',
+    label2: 'Test 1',
+    selected: false,
+    disabled: false,
+  },
+  {
+    value: 'Option 5',
+    label: 'Option 5',
     label2: 'Test 1',
     selected: false,
     disabled: false,
@@ -56,13 +61,28 @@ export class App {
   public duplicateItemsAllowed: boolean = true;
   public searchEnabled =true;
   public searchChoices =true;
-  public searchFields=["label","value"];
+  public searchFields=["name","alpha3Code"];
   public shouldSort= true;
   public itemSelectText;
   public cInstance;
+  public choicesLabelName = "label";
+  public choicesValueName = "value";
   public async search(event){
-    this.choices
-    this.choices =[]
+    console.log(event);
+    var result = await fetch("https://restcountries.eu/rest/v2/name/"+ event.detail.value);
+    this.choices = await result.json();
+  }
+
+  public isRemoteSearch = false;
+  public async toggleRemoteSearch(){
+    this.searchChoices = false;
+    this.isRemoteSearch = true;
+    this.choicesLabelName = "name";
+    this.choicesValueName = "alpha3Code"
+    var result = await fetch("https://restcountries.eu/rest/v2/all");
+    this.choices = await result.json();
+  }
+  public searchRemote(event){
   }
 
   public sorter =function(a, b) {

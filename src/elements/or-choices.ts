@@ -39,6 +39,9 @@ export class OrChoices {
     this.choicesInstance.passedElement.element.addEventListener('change',(e)=>{
       this.oValue = this.choicesInstance.getValue(true);
     });
+    if (this.choicesInstance && this.oChoices) {
+        this.choicesInstance.setChoices(this.oChoices, this.oChoicesValueName,this.oChoicesLabelName,true);
+      }
   }
   private buildPlaceholder(){
     if(this.oPlaceholder && this.oPlaceholderValue && !this.oMultiple){
@@ -61,8 +64,10 @@ export class OrChoices {
   public oChoices: any[];
   private oChoicesChanged(newValue, oldValue){
     console.log("oChoices");
+    console.log(this.config);
+    console.log(newValue);
     if (this.choicesInstance) {
-      this.choicesInstance.setChoices(this.oChoices, this.oChoicesValue,this.oChoicesLabelName,true);
+      this.choicesInstance.setChoices(this.oChoices, this.oChoicesValueName,this.oChoicesLabelName,true);
     }
   }
 
@@ -79,6 +84,9 @@ export class OrChoices {
 public oSorter: Function;
 private oSorterChanged(newValue, oldValue){
     if (this.choicesInstance) {
+        if(this.oSorter===null || this.oSorter ===undefined){
+            this.oSorter = this.sortByAlpha;
+        }
         this.initChoices();
     }
 }
@@ -86,26 +94,28 @@ private oSorterChanged(newValue, oldValue){
 private initialiseFunctions(){
     if(this.oSorter!==undefined && this.oSorter!==null){
         this.config.sorter = this.oSorter;
+    }else{
+        this.oSorter = (_ref, _ref2)=> (this.sortByAlpha(_ref,_ref2,this.oChoicesLabelName, this.oChoicesValueName));
     }
 }
   //extra bindables
-  @bindable()
+  @bindable({ defaultBindingMode: bindingMode.twoWay })
   public oChoicesLabelName: string = "label";
-  private oChoicesLabelChangedName(newValue, oldValue){
+  private oChoicesLabelNameChanged(newValue, oldValue){
     console.log("oChoicesLabelName");
     if (this.choicesInstance && this.oChoices) {
-      this.choicesInstance.setChoices(this.oChoices, this.oChoicesValue,this.oChoicesLabelName,true);
+      this.choicesInstance.setChoices(this.oChoices, this.oChoicesValueName,this.oChoicesLabelName,true);
     }
   }
-  @bindable()
-  public oChoicesValue: string = "value";
-  private oChoicesLabelChanged(newValue, oldValue){
+  @bindable({ defaultBindingMode: bindingMode.twoWay })
+  public oChoicesValueName: string = "value";
+  private oChoicesValueNameChanged(newValue, oldValue){
     console.log("oChoicesValue");
     if (this.choicesInstance && this.oChoices) {
-      this.choicesInstance.setChoices(this.oChoices, this.oChoicesValue,this.oChoicesLabelName,true);
+      this.choicesInstance.setChoices(this.oChoices, this.oChoicesValueName,this.oChoicesLabelName,true);
     }
   }
-  @bindable()
+  @bindable({ defaultBindingMode: bindingMode.twoWay })
   public oMultiple: boolean = false;
   private oMultipleChanged(newValue, oldValue){
     console.log("multiple");
@@ -122,6 +132,24 @@ private initialiseFunctions(){
       this.choicesElement.removeAttribute("multiple");
     }
   }
+ 
+  private sortByAlpha(_ref, _ref2, labelName, valueName) {
+      if(this==null)return;
+      if(valueName==null)return;
+      if(labelName==null) return;
+    let value = _ref[valueName],
+        _ref$label = _ref[labelName],
+        label = _ref$label === void 0 ? value : _ref$label;
+        let value2 = _ref2[valueName],
+        _ref2$label = _ref2[labelName],
+        label2 = _ref2$label === void 0 ? value2 : _ref2$label;
+        if(label==null ||  label2 == null) return;
+    return label2.localeCompare(label, [], {
+      sensitivity: 'base',
+      ignorePunctuation: true,
+      numeric: true
+    });
+  };
   //--- GENERATED CODE ---
 @bindable({ defaultBindingMode: bindingMode.twoWay })
 public oAddItemFilter:string|RegExp|Choicesns.Types.filterFunction|null;

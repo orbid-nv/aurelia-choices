@@ -17,7 +17,6 @@
    o-position.bind="position"
    o-should-sort.bind="shouldSort"
    o-should-sort-items.bind="shouldSortItems"
-   o-sorter.bind="sorter"
    o-search-placeholder-value.bind="searchPlaceholderValue"
    o-prepend-value.bind="prependValue"
    o-append-value.bind="appendValue"
@@ -30,8 +29,11 @@
    o-callback-on-init.bind="callbackOnInit"
    choice.delegate="test($event)"
    search.delegate="search($event)"
+   o-choices-label-name.bind="choicesLabelName"
+   o-choices-value-name.bind="choicesValueName"
    o-multiple.bind="multiple">
    <!-- o-callback-on-create-templates.bind="callbackOnCreateTemplates" -->
+   <!-- o-sorter.bind="sorter" -->
     
   </or-choices>
       <div >
@@ -63,8 +65,10 @@
       <div>
         <label>fields</label>
         <select multiple value.bind="searchFields">
-          <option value="label" selected="selected">label</option>
-          <option value="value"selected="selected">value</option>
+          <!-- <option value="label" selected="selected">label</option>
+          <option value="value"selected="selected">value</option> -->
+            <option value="name" selected="selected">name</option>
+            <option value="alpha3Code" selected="selected">alpha3Code</option>
         </select>
       </div>
       <div >
@@ -127,4 +131,6 @@
     </div>
     
   <button click.delegate="clicked()">test</button>
+  <button click.delegate="toggleRemoteSearch()">remote</button>
+  
 </template>
