@@ -2,6 +2,7 @@ import { bindable, autoinject, bindingMode } from "aurelia-framework";
 import Choices from "choices.js";
 import * as C  from "choices.js";
 import {Choices as Choicesns}  from "choices.js"
+import { FuseOptions } from 'fuse.js';
 @autoinject()
 export class OrChoices {
   @bindable public message: string = "";
@@ -18,6 +19,10 @@ export class OrChoices {
   private initChoices(){
     this.initialiseProperties();
     this.initialiseFunctions();
+    if(this.oFuseOptions!==undefined && this.oFuseOptions!==null){
+        this.config.fuseOptions = this.oFuseOptions
+    }
+    
     if(this.choicesInstance){
       this.choicesInstance.destroy();
      //if innerhtml isn't cleared sometimes nodes will apear double when recreated.  
@@ -61,25 +66,13 @@ export class OrChoices {
     }
   }
 
-  public 
-//events
-
-// public registerEvents(){
-//     let self = this;
-//     this.choicesElement.addEventListener(
-//         'choice',
-//         function(event: any) {
-//           // do something creative here...
-//           self.choicesElement.dispatchEvent(
-// 			new CustomEvent("o-on-choice", {
-// 				bubbles: true,
-// 				detail: { choice: event.detail.choice}
-// 			})
-// 		);
-//         },
-//         false,
-//       );
-// }
+  @bindable({ defaultBindingMode: bindingMode.twoWay })
+  public oFuseOptions: FuseOptions<Choicesns.Choice>;
+  private oFuseOptionsChanged(newValue, oldValue){
+  if (this.choicesInstance) {
+      this.initChoices();
+  }
+  }
 
 //functions:
 @bindable({ defaultBindingMode: bindingMode.twoWay })

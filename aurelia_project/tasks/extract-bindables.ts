@@ -7,7 +7,7 @@ import * as hbHelpers from "handlebars-helpers";
 import { FuseOptions } from 'fuse.js';
 function readTs() {
 	//instance.d.ts is de high-level ts file
-	return gulp.src(["./node_modules/choices.js/types/index.d.ts",]).pipe(
+	return gulp.src(["./temp/index.d.ts",]).pipe(
 		typedoc({
 			target: "es6",
 			includeDeclarations: true,
@@ -16,6 +16,7 @@ function readTs() {
 			mode: "modules",
 			excludeExternals: true,
 			version: true,
+			includes: "./node_modules/fuse.js"
 		} as typedoc.Options)
 	);
 }
@@ -55,7 +56,7 @@ function extractOptions(jsObj, json) {
 
 	//all primitive properies, incl dates
 	//var properties = json.children[0].children[1].type.types[2].declaration.children voor instance
-	var listNotToMap = ["choices"];
+	var listNotToMap = ["choices","fuseOptions"];
 	var properties = json.children[0].children[0].children[6].children
 		.filter(
 			x =>
