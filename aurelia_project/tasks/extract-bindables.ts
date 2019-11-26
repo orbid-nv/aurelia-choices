@@ -4,10 +4,10 @@ import * as typedoc from "gulp-typedoc";
 import * as fs from "fs";
 import * as hbsAll from "gulp-handlebars-all";
 import * as hbHelpers from "handlebars-helpers";
-import { FuseOptions } from 'fuse.js';
+import { FuseOptions } from "fuse.js";
 function readTs() {
 	//instance.d.ts is de high-level ts file
-	return gulp.src(["./temp/index.d.ts",]).pipe(
+	return gulp.src(["./temp/index.d.ts"]).pipe(
 		typedoc({
 			target: "es6",
 			includeDeclarations: true,
@@ -38,14 +38,24 @@ function extractBindables() {
 function convertType(type: any) {
 	switch (type.type) {
 		case "union":
-			return type.types.map(x => x.name? x.name.replace("Choices.","Choicesns.") : x.value ?  '"' + x.value + '"' : "any").join("|");
+			return type.types
+				.map(x =>
+					x.name
+						? x.name.replace("Choices.", "Choicesns.")
+						: x.value
+						? '"' + x.value + '"'
+						: "any"
+				)
+				.join("|");
 			break;
 		case "array":
-			return type.elementType.name+"[]";
+			return type.elementType.name + "[]";
 			break;
 		case "reference":
-		return type.name.indexOf(".") >-1 ? type.name.replace("Choices.","Choicesns."): "Choicesns."+type.name;
-		break;
+			return type.name.indexOf(".") > -1
+				? type.name.replace("Choices.", "Choicesns.")
+				: "Choicesns." + type.name;
+			break;
 		default:
 			return type.name;
 			break;
@@ -56,16 +66,20 @@ function extractOptions(jsObj, json) {
 
 	//all primitive properies, incl dates
 	//var properties = json.children[0].children[1].type.types[2].declaration.children voor instance
-	var listNotToMap = ["choices","fuseOptions"];
+	var listNotToMap = ["choices", "fuseOptions"];
 	var properties = json.children[0].children[0].children[6].children
 		.filter(
 			x =>
-				(x.type.type === "intrinsic" || (x.type.type === "array" && x.type.elementType.type === "intrinsic") || x.type.type === "union" ||
-					(x.type.type === "reference" )) &&
-				!x.name.startsWith("_") && listNotToMap.indexOf(x.name)<0
+				(x.type.type === "intrinsic" ||
+					(x.type.type === "array" &&
+						x.type.elementType.type === "intrinsic") ||
+					x.type.type === "union" ||
+					x.type.type === "reference") &&
+				!x.name.startsWith("_") &&
+				listNotToMap.indexOf(x.name) < 0
 		)
 		.map(x => new FlProperty({ name: x.name, type: convertType(x.type) }));
-    console.log(properties);
+	console.log(properties);
 	gulp.src("./templates/choices.hbs")
 		.pipe(
 			hbsAll("html", {
@@ -143,4 +157,4 @@ class FlProperty {
 	}
 }
 
-export default gulp.series(readTs,extractBindables);
+export default gulp.series(readTs, extractBindables);

@@ -1,136 +1,155 @@
 <template>
-  <or-choices o-placeholder-value="Select a valuek" 
-   o-placeholder.bind="true"
-   o-choices.bind="choices" o-value.bind="selectedValue" 
-   o-render-choice-limit.bind="renderChoiceLimit"
-   o-max-item-count.bind="maxItemCount"
-   o-remove-items.bind="removeItems"
-   o-remove-item-button.bind="removeItems"
-   o-duplicate-items-allowed.bind="duplicateItemsAllowed"
-   o-paste.bind="paste"
-   choices-instance.bind="cInstance"
-   o-search-enabled.bind="searchEnabled"
-   o-search-choices.bind="searchChoices"
-   o-search-fields.bind="searchFields"
-   o-search-floor.bind="searchFloor"
-   o-search-result-limit.bind="searchResultLimit"
-   o-position.bind="position"
-   o-should-sort.bind="shouldSort"
-   o-should-sort-items.bind="shouldSortItems"
-   o-search-placeholder-value.bind="searchPlaceholderValue"
-   o-prepend-value.bind="prependValue"
-   o-append-value.bind="appendValue"
-   o-render-selected-choices.bind="renderSelectedChoices"
-   o-loading-text.bind="loadingText"
-   o-no-results-text.bind="noResultsText"
-   o-no-choices-text.bind="noChoicesText"
-   o-item-select-text.bind="itemSelectText"
-   o-class-names.bind="classNames"
-   o-callback-on-init.bind="callbackOnInit"
-   choice.delegate="test($event)"
-   search.delegate="search($event)"
-   o-choices-label-name.bind="choicesLabelName"
-   o-choices-value-name.bind="choicesValueName"
-   o-multiple.bind="multiple">
-   <!-- o-callback-on-create-templates.bind="callbackOnCreateTemplates" -->
-   <!-- o-sorter.bind="sorter" -->
-    
-  </or-choices>
-      <div >
-          <label>multiple <input type="checkbox" checked.bind="multiple"/></label>
-      </div>
-      <div >
-          <label>renderChoiceLimit</label>
-          <input type="number" value.bind="renderChoiceLimit"/>
-      </div>
-      <div >
-          <label>maxItemCount</label>
-          <input type="number" value.bind="maxItemCount"/>
-      </div>
-      <div >
-          <label>removeItems <input type="checkbox" checked.bind="removeItems"/></label>
-      </div>
-      <div  >
-          <label>duplicateItemsAllowed <input type="checkbox" checked.bind="duplicateItemsAllowed"/></label>
-      </div>
-      <div >
-          <label>paste <input type="checkbox" checked.bind="paste"/></label>
-      </div>
-      <div >
-          <label>searchEnabled (single only)<input type="checkbox" checked.bind="searchEnabled"/></label>
-      </div>
-      <div >
-          <label>searchChoices (single only)<input type="checkbox" checked.bind="searchChoices"/></label>
-      </div>
-      <div>
-        <label>fields</label>
-        <select multiple value.bind="searchFields">
-          <!-- <option value="label" selected="selected">label</option>
+	<or-choices
+		o-placeholder-value="Select a valuek"
+		o-placeholder.bind="true"
+		o-choices.bind="choices"
+		o-value.bind="selectedValue"
+		o-render-choice-limit.bind="renderChoiceLimit"
+		o-max-item-count.bind="maxItemCount"
+		o-remove-items.bind="removeItems"
+		o-remove-item-button.bind="removeItems"
+		o-duplicate-items-allowed.bind="duplicateItemsAllowed"
+		o-paste.bind="paste"
+		choices-instance.bind="cInstance"
+		o-search-enabled.bind="searchEnabled"
+		o-search-choices.bind="searchChoices"
+		o-search-fields.bind="searchFields"
+		o-search-floor.bind="searchFloor"
+		o-search-result-limit.bind="searchResultLimit"
+		o-position.bind="position"
+		o-should-sort.bind="shouldSort"
+		o-should-sort-items.bind="shouldSortItems"
+		o-search-placeholder-value.bind="searchPlaceholderValue"
+		o-prepend-value.bind="prependValue"
+		o-append-value.bind="appendValue"
+		o-render-selected-choices.bind="renderSelectedChoices"
+		o-loading-text.bind="loadingText"
+		o-no-results-text.bind="noResultsText"
+		o-no-choices-text.bind="noChoicesText"
+		o-item-select-text.bind="itemSelectText"
+		o-class-names.bind="classNames"
+		o-callback-on-init.bind="callbackOnInit"
+		choice.delegate="test($event)"
+		search.delegate="search($event)"
+		o-choices-label-name.bind="choicesLabelName"
+		o-choices-value-name.bind="choicesValueName"
+		o-multiple.bind="multiple"
+	>
+		<!-- o-callback-on-create-templates.bind="callbackOnCreateTemplates" -->
+		<!-- o-sorter.bind="sorter" -->
+	</or-choices>
+	<div>
+		<label>multiple <input type="checkbox" checked.bind="multiple"/></label>
+	</div>
+	<div>
+		<label>renderChoiceLimit</label>
+		<input type="number" value.bind="renderChoiceLimit" />
+	</div>
+	<div>
+		<label>maxItemCount</label>
+		<input type="number" value.bind="maxItemCount" />
+	</div>
+	<div>
+		<label
+			>removeItems <input type="checkbox" checked.bind="removeItems"
+		/></label>
+	</div>
+	<div>
+		<label
+			>duplicateItemsAllowed
+			<input type="checkbox" checked.bind="duplicateItemsAllowed"
+		/></label>
+	</div>
+	<div>
+		<label>paste <input type="checkbox" checked.bind="paste"/></label>
+	</div>
+	<div>
+		<label
+			>searchEnabled (single only)<input
+				type="checkbox"
+				checked.bind="searchEnabled"
+		/></label>
+	</div>
+	<div>
+		<label
+			>searchChoices (single only)<input
+				type="checkbox"
+				checked.bind="searchChoices"
+		/></label>
+	</div>
+	<div>
+		<label>fields</label>
+		<select multiple value.bind="searchFields">
+			<!-- <option value="label" selected="selected">label</option>
           <option value="value"selected="selected">value</option> -->
-            <option value="name" selected="selected">name</option>
-            <option value="alpha3Code" selected="selected">alpha3Code</option>
-        </select>
-      </div>
-      <div >
-          <label>searchFloor</label>
-          <input type="number" value.bind="searchFloor"/>
-      </div>
-      <div >
-          <label>searchResultLimit</label>
-          <input type="number" value.bind="searchResultLimit"/>
-      </div>
-      <div>
-          <label>position</label>
-          <select  value.bind="position">
-            <option value="auto" selected="selected">auto</option>
-            <option value="top">top</option>
-            <option value="bottom">bottom</option>
-          </select>
-        </div>
-        <div >
-            <label>shouldSort <input type="checkbox" checked.bind="shouldSort"/></label>
-        </div>
-        <div >
-            <label>shouldSortItems <input type="checkbox" checked.bind="shouldSortItems"/></label>
-        </div>
-        <div >
-          <label>searchPlaceholderValue</label>
-          <input type="text" value.bind="searchPlaceholderValue"/>
-      </div>
-      <div >
-        <label>prependValue</label>
-        <input type="text" value.bind="prependValue"/>
-    </div>
-    <div >
-        <label>appendValue</label>
-        <input type="text" value.bind="appendValue"/>
-    </div>
-    
-    <div>
-        <label>renderSelectedChoices</label>
-        <select  value.bind="renderSelectedChoices">
-          <option value="auto" selected="selected">auto</option>
-          <option value="always">always</option>
-        </select>
-      </div>
-      <div >
-        <label>loadingText</label>
-        <input type="text" value.bind="loadingText"/>
-    </div>
-    <div >
-        <label>noResultsText</label>
-        <input type="text" value.bind="noResultsText"/>
-    </div>
-    <div >
-        <label>noChoicesText</label>
-        <input type="text" value.bind="noChoicesText"/>
-    </div>
-    <div >
-        <label>itemSelectText</label>
-        <input type="text" value.bind="itemSelectText"/>
-    </div>
-    
-  <button click.delegate="clicked()">test</button>
-  <button click.delegate="toggleRemoteSearch()">remote</button>
-  
+			<option value="name" selected="selected">name</option>
+			<option value="alpha3Code" selected="selected">alpha3Code</option>
+		</select>
+	</div>
+	<div>
+		<label>searchFloor</label>
+		<input type="number" value.bind="searchFloor" />
+	</div>
+	<div>
+		<label>searchResultLimit</label>
+		<input type="number" value.bind="searchResultLimit" />
+	</div>
+	<div>
+		<label>position</label>
+		<select value.bind="position">
+			<option value="auto" selected="selected">auto</option>
+			<option value="top">top</option>
+			<option value="bottom">bottom</option>
+		</select>
+	</div>
+	<div>
+		<label
+			>shouldSort <input type="checkbox" checked.bind="shouldSort"
+		/></label>
+	</div>
+	<div>
+		<label
+			>shouldSortItems
+			<input type="checkbox" checked.bind="shouldSortItems"
+		/></label>
+	</div>
+	<div>
+		<label>searchPlaceholderValue</label>
+		<input type="text" value.bind="searchPlaceholderValue" />
+	</div>
+	<div>
+		<label>prependValue</label>
+		<input type="text" value.bind="prependValue" />
+	</div>
+	<div>
+		<label>appendValue</label>
+		<input type="text" value.bind="appendValue" />
+	</div>
+
+	<div>
+		<label>renderSelectedChoices</label>
+		<select value.bind="renderSelectedChoices">
+			<option value="auto" selected="selected">auto</option>
+			<option value="always">always</option>
+		</select>
+	</div>
+	<div>
+		<label>loadingText</label>
+		<input type="text" value.bind="loadingText" />
+	</div>
+	<div>
+		<label>noResultsText</label>
+		<input type="text" value.bind="noResultsText" />
+	</div>
+	<div>
+		<label>noChoicesText</label>
+		<input type="text" value.bind="noChoicesText" />
+	</div>
+	<div>
+		<label>itemSelectText</label>
+		<input type="text" value.bind="itemSelectText" />
+	</div>
+
+	<button click.delegate="clicked()">test</button>
+	<button click.delegate="toggleRemoteSearch()">remote</button>
 </template>

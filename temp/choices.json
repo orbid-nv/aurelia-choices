@@ -390,14 +390,7 @@
 								{
 									"title": "Type aliases",
 									"kind": 4194304,
-									"children": [
-										334,
-										330,
-										326,
-										319,
-										323,
-										338
-									]
+									"children": [334, 330, 326, 319, 323, 338]
 								}
 							],
 							"sources": [
@@ -1689,9 +1682,7 @@
 														{
 															"title": "Variables",
 															"kind": 32,
-															"children": [
-																136
-															]
+															"children": [136]
 														}
 													],
 													"sources": [
@@ -1762,9 +1753,7 @@
 														{
 															"title": "Variables",
 															"kind": 32,
-															"children": [
-																133
-															]
+															"children": [133]
 														}
 													],
 													"sources": [
@@ -1864,9 +1853,7 @@
 														{
 															"title": "Variables",
 															"kind": 32,
-															"children": [
-																145
-															]
+															"children": [145]
 														}
 													],
 													"sources": [
@@ -2513,12 +2500,7 @@
 								{
 									"title": "Properties",
 									"kind": 1024,
-									"children": [
-										88,
-										89,
-										87,
-										90
-									]
+									"children": [88, 89, 87, 90]
 								}
 							],
 							"sources": [
@@ -6029,9 +6011,7 @@
 														{
 															"title": "Functions",
 															"kind": 64,
-															"children": [
-																252
-															]
+															"children": [252]
 														}
 													],
 													"sources": [
@@ -6125,13 +6105,7 @@
 								{
 									"title": "Variables",
 									"kind": 32,
-									"children": [
-										249,
-										250,
-										263,
-										264,
-										262
-									]
+									"children": [249, 250, 263, 264, 262]
 								}
 							],
 							"sources": [
@@ -6245,10 +6219,7 @@
 										{
 											"title": "Variables",
 											"kind": 32,
-											"children": [
-												5,
-												6
-											]
+											"children": [5, 6]
 										}
 									],
 									"sources": [
@@ -7363,40 +7334,22 @@
 						{
 							"title": "Modules",
 							"kind": 2,
-							"children": [
-								318
-							]
+							"children": [318]
 						},
 						{
 							"title": "Interfaces",
 							"kind": 256,
-							"children": [
-								74,
-								222,
-								105,
-								86,
-								91,
-								265,
-								146
-							]
+							"children": [74, 222, 105, 86, 91, 265, 146]
 						},
 						{
 							"title": "Constructors",
 							"kind": 512,
-							"children": [
-								11
-							]
+							"children": [11]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
-							"children": [
-								7,
-								8,
-								9,
-								10,
-								3
-							]
+							"children": [7, 8, 9, 10, 3]
 						},
 						{
 							"title": "Methods",
@@ -7443,9 +7396,7 @@
 				{
 					"title": "Classes",
 					"kind": 128,
-					"children": [
-						2
-					]
+					"children": [2]
 				}
 			],
 			"sources": [
@@ -7461,9 +7412,7 @@
 		{
 			"title": "External modules",
 			"kind": 1,
-			"children": [
-				1
-			]
+			"children": [1]
 		}
 	]
 }
